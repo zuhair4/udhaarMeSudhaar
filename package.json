@@ -4,6 +4,10 @@
   "private": true,
   "type": "module",
   "homepage": "https://zuhair4.github.io/UdhaarMeShudhaar",
+  "description": "Udhaar Me Sudhaar — Loan management, settlement negotiation, and legal protection",
+  "keywords": ["loan","settlement","legal","finance","udhaar"],
+  "author": "zuhair4",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
