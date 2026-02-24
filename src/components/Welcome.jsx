@@ -1,0 +1,29 @@
+import React from 'react'
+import welcomeImg from '../Assets/brenton-pearce-Sc85cQWwiP8-unsplash.jpg'
+
+export default function Welcome() {
+  return (
+    <div className="container">
+      <div className="welcome-grid">
+        <div className="welcome-text">
+          <h3>Welcome to</h3>
+          <h2>UDHAAR म SUDHAAR</h2>
+          <p className="lead">
+            Welcome to Udhaar म Sudhaar — Your Trusted Partner in Loan Management and
+            Settlement
+          </p>
+          <p>
+            Are you facing challenges with loan repayments, property seizure threats,
+            or auction notices? At Udhaar म Sudhaar, we specialize in providing expert
+            solutions for individuals and businesses struggling with financial stress
+            related to loans.
+          </p>
+        </div>
+
+        <div className="welcome-media">
+          <img src={welcomeImg} alt="Udhaar m Sudhaar" className="welcome-img" />
+        </div>
+      </div>
+    </div>
+  )
+}
