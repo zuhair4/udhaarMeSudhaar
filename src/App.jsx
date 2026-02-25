@@ -10,6 +10,5 @@ export default function App() {
         <Home />
       </main>
     </div>
-    
   )
 }

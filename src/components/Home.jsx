@@ -5,6 +5,7 @@ import About from './About'
 import Services from './Services'
 import Services2 from './Services2'
 import Commitment from './Commitment'
+import Testimonials from './Testimonials'
 import Contact from './Contact'
 
 export default function Home() {
@@ -32,6 +33,10 @@ export default function Home() {
 
       <section id="commitment" className="section">
         <Commitment />
+      </section>
+
+      <section id="testimonials" className="section">
+        <Testimonials />
       </section>
 
       <section id="contact" className="section">
