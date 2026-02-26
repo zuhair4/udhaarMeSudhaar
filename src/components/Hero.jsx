@@ -9,7 +9,7 @@ export default function Hero() {
       <div className="container hero-content">
         <div className="hero-badge">Trusted Legal Experts</div>
         <h2 className="hero-title">
-          Udhaar <span className="accent">म</span> Sudhaar
+          Udhaar <span className="accent">मे</span> Sudhaar
         </h2>
         <p className="hero-sub hero-light-text">
           Your Trusted Partner in Loan Management and Settlement

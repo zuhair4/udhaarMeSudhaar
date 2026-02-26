@@ -7,15 +7,15 @@ export default function Welcome() {
       <div className="welcome-grid">
         <div className="welcome-text reveal">
           <h3>Welcome to</h3>
-          <h2>UDHAAR म SUDHAAR</h2>
+          <h2>UDHAAR मे SUDHAAR</h2>
           <div className="accent-line"></div>
           <p className="lead">
-            Welcome to Udhaar म Sudhaar — Your Trusted Partner in Loan Management and
+            Welcome to Udhaar मे Sudhaar — Your Trusted Partner in Loan Management and
             Settlement
           </p>
           <p>
             Are you facing challenges with loan repayments, property seizure threats,
-            or auction notices? At Udhaar म Sudhaar, we specialize in providing expert
+            or auction notices? At Udhaar मे Sudhaar, we specialize in providing expert
             solutions for individuals and businesses struggling with financial stress
             related to loans.
           </p>

@@ -60,7 +60,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="site-footer">
         <div className="footer-inner">
-          <div className="footer-brand">Udhaar <span>म</span> Sudhaar</div>
+          <div className="footer-brand">Udhaar <span>मे</span> Sudhaar</div>
           <p className="footer-tagline">Your Trusted Partner in Loan Management & Settlement</p>
           <div className="footer-links">
             <a href="#home">Home</a>
@@ -71,7 +71,7 @@ export default function Home() {
             <a href="#contact">Contact</a>
           </div>
           <div className="footer-divider"></div>
-          <p className="footer-copy">© {new Date().getFullYear()} Udhaar म Sudhaar. All rights reserved.</p>
+          <p className="footer-copy">© {new Date().getFullYear()} Udhaar मे Sudhaar. All rights reserved.</p>
         </div>
       </footer>
 

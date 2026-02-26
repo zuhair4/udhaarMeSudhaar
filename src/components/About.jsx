@@ -6,7 +6,7 @@ export default function About() {
     <div className="container">
       <div className="about-grid">
         <div className="about-media reveal-left">
-          <img src={aboutImg} alt="About Udhaar म Sudhaar" className="about-img" />
+          <img src={aboutImg} alt="About Udhaar मे Sudhaar" className="about-img" />
         </div>
 
         <div className="about-content reveal">
@@ -14,7 +14,7 @@ export default function About() {
           <h2>Us</h2>
           <div className="about-line"></div>
           <p>
-            At Udhaar म Sudhaar, we are dedicated to helping individuals and
+            At Udhaar मे Sudhaar, we are dedicated to helping individuals and
             businesses regain control of their financial lives. With a focus on
             ethical, practical, and legally sound solutions, we specialize in loan
             management, debt settlement, and protection from aggressive recovery

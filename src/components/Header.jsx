@@ -70,7 +70,7 @@ export default function Header({ theme, toggleTheme }) {
     <header ref={headerRef} className={`site-header ${scrolled ? 'scrolled' : ''}`}>
       <div className="container header-inner">
         <div className="brand">
-          <h1 className="logo">Udhaar <span>म</span> Sudhaar</h1>
+          <h1 className="logo">Udhaar <span>मे</span> Sudhaar</h1>
           <div className="tag">Loan Management & Settlement</div>
         </div>
 
