@@ -395,14 +395,21 @@ main {
    ============================================= */
 
 .site-header {
-    position: sticky;
+    position: fixed;
     top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
     background: var(--header-bg);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     border-bottom: 1px solid var(--border);
     z-index: 100;
     transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+main {
+    padding-top: var(--header-height);
 }
 
 .site-header.scrolled {
@@ -610,7 +617,7 @@ main {
 .hero-content {
     position: relative;
     color: var(--hero-text);
-    padding: 7rem 4rem;
+    padding: 0.5rem 4rem 7rem 4rem;
     max-width: 1200px;
     margin: 0 auto;
     width: 100%;
