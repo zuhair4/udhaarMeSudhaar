@@ -5,11 +5,11 @@ export default function About() {
   return (
     <div className="container">
       <div className="about-grid">
-        <div className="about-media">
+        <div className="about-media reveal-left">
           <img src={aboutImg} alt="About Udhaar म Sudhaar" className="about-img" />
         </div>
 
-        <div className="about-content">
+        <div className="about-content reveal">
           <h3>About</h3>
           <h2>Us</h2>
           <div className="about-line"></div>

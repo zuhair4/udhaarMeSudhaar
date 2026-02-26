@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useCallback } from 'react'
 
 export default function Testimonials() {
   const testimonials = [
@@ -53,27 +53,39 @@ export default function Testimonials() {
   ]
 
   const [index, setIndex] = useState(0)
+  const [isPaused, setIsPaused] = useState(false)
+
+  const next = useCallback(() => {
+    setIndex((i) => (i === testimonials.length - 1 ? 0 : i + 1))
+  }, [testimonials.length])
 
   function prev() {
     setIndex((i) => (i === 0 ? testimonials.length - 1 : i - 1))
   }
 
-  function next() {
-    setIndex((i) => (i === testimonials.length - 1 ? 0 : i + 1))
-  }
+  // Auto-advance every 5 seconds, pause on hover
+  useEffect(() => {
+    if (isPaused) return
+    const timer = setInterval(next, 5000)
+    return () => clearInterval(timer)
+  }, [isPaused, next])
 
   const current = testimonials[index]
 
   return (
-    <div className="testimonials-section">
+    <div
+      className="testimonials-section"
+      onMouseEnter={() => setIsPaused(true)}
+      onMouseLeave={() => setIsPaused(false)}
+    >
       <div className="container">
         <h3>Testimonials</h3>
         <h2>What our clients say</h2>
 
-        <div className="testimonial-featured">
+        <div className="testimonial-featured reveal">
           <div className="testimonial-card-single">
             <p className="testimonial-text-large">" {current.text} "</p>
-            
+
             <div className="testimonial-footer">
               <div>
                 <h4 className="testimonial-name-large">{current.name}</h4>
@@ -90,7 +102,7 @@ export default function Testimonials() {
 
           <div className="testimonial-controls">
             <button className="testimonial-btn prev" onClick={prev} aria-label="Previous">‹</button>
-            
+
             <div className="testimonial-dots">
               {testimonials.map((_, i) => (
                 <button
@@ -101,7 +113,7 @@ export default function Testimonials() {
                 />
               ))}
             </div>
-            
+
             <button className="testimonial-btn next" onClick={next} aria-label="Next">›</button>
           </div>
         </div>

@@ -20,7 +20,7 @@ export default function Services2() {
       desc: 'We analyze your loan structure and help reduce interest burdens through smart restructuring and repayment plans.'
     },
     {
-      title: 'Protection from Illegal Recovery Agents and Unlawful Bank/NBFC Actions',
+      title: 'Protection from Illegal Recovery Agents',
       desc: 'Our legal experts act swiftly to shield you from unlawful threats, harassment, and coercion by lenders, ensuring you are treated fairly under the law.'
     }
   ]
@@ -28,12 +28,12 @@ export default function Services2() {
   return (
     <div className="container">
       <div className="services-grid">
-        <div className="services-media">
+        <div className="services-media reveal-left">
           <img src={servicesImg} alt="Our Services" className="services-img" />
         </div>
 
-        <div className="services-content">
-          <ul className="services-list">
+        <div className="services-content reveal">
+          <ul className="services-list stagger">
             {services.map((service, i) => (
               <li key={i}>
                 <h4>{service.title}</h4>

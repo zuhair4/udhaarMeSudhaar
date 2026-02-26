@@ -4,16 +4,40 @@ import heroImg from '../Assets/photorealistic-lawyer-environment.jpg'
 export default function Hero() {
   return (
     <div className="hero-clip">
-      <div className="hero-bg" style={{backgroundImage:`url(${heroImg})`}} />
+      <div className="hero-bg" style={{ backgroundImage: `url(${heroImg})` }} />
       <div className="hero-overlay"></div>
       <div className="container hero-content">
-        <h2 className="hero-title" style={{color:'#fff'}}>Udhaar म Sudhaar</h2>
-        <p className="hero-sub" style={{color:'#fff'}}>Your Trusted Partner in Loan Management and Settlement</p>
-        <p className="hero-p" style={{color:'#fff'}}>
-          Fast, professional support for loan restructuring, settlement negotiation,
-          and protecting your assets.
+        <div className="hero-badge">Trusted Legal Experts</div>
+        <h2 className="hero-title">
+          Udhaar <span className="accent">म</span> Sudhaar
+        </h2>
+        <p className="hero-sub hero-light-text">
+          Your Trusted Partner in Loan Management and Settlement
         </p>
-        <a className="btn btn-primary" href="#contact">Get Consultation</a>
+        <p className="hero-p hero-light-text">
+          Fast, professional support for loan restructuring, settlement negotiation,
+          and protecting your assets from aggressive recovery actions.
+        </p>
+        <a className="btn" href="#contact">Get Free Consultation →</a>
+
+        <div className="hero-stats">
+          <div className="hero-stat">
+            <div className="hero-stat-number">500+</div>
+            <div className="hero-stat-label">Cases Resolved</div>
+          </div>
+          <div className="hero-stat">
+            <div className="hero-stat-number">98%</div>
+            <div className="hero-stat-label">Success Rate</div>
+          </div>
+          <div className="hero-stat">
+            <div className="hero-stat-number">15+</div>
+            <div className="hero-stat-label">Years Experience</div>
+          </div>
+          <div className="hero-stat">
+            <div className="hero-stat-number">₹50Cr+</div>
+            <div className="hero-stat-label">Debt Settled</div>
+          </div>
+        </div>
       </div>
     </div>
   )

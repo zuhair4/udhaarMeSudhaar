@@ -6,12 +6,12 @@ export default function Commitment() {
   return (
     <div className="container">
       <div className="commitment-grid">
-        <div className="commitment-content">
+        <div className="commitment-content reveal">
           <h3>Our</h3>
           <h2>COMMITMENT</h2>
           <div className="commitment-line"></div>
 
-          <ul className="commitment-list">
+          <ul className="commitment-list stagger">
             <li>Transparent Communication</li>
             <li>Timely and Strategic Legal Advice</li>
             <li>Client-Centered Representation</li>
@@ -20,7 +20,7 @@ export default function Commitment() {
           </ul>
         </div>
 
-        <div className="commitment-images">
+        <div className="commitment-images reveal-right">
           <img src={commitmentImg1} alt="Team Collaboration" className="commitment-img" />
           <img src={commitmentImg2} alt="Team" className="commitment-img" />
         </div>

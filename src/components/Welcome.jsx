@@ -5,9 +5,10 @@ export default function Welcome() {
   return (
     <div className="container">
       <div className="welcome-grid">
-        <div className="welcome-text">
+        <div className="welcome-text reveal">
           <h3>Welcome to</h3>
           <h2>UDHAAR म SUDHAAR</h2>
+          <div className="accent-line"></div>
           <p className="lead">
             Welcome to Udhaar म Sudhaar — Your Trusted Partner in Loan Management and
             Settlement
@@ -20,7 +21,7 @@ export default function Welcome() {
           </p>
         </div>
 
-        <div className="welcome-media">
+        <div className="welcome-media reveal-right">
           <img src={welcomeImg} alt="Udhaar m Sudhaar" className="welcome-img" />
         </div>
       </div>

@@ -24,12 +24,12 @@ export default function Services() {
   return (
     <div className="container">
       <div className="services-grid">
-        <div className="services-content">
+        <div className="services-content reveal">
           <h3>Our</h3>
           <h2>SERVICES</h2>
           <div className="services-line"></div>
-          
-          <ul className="services-list">
+
+          <ul className="services-list stagger">
             {services.map((service, i) => (
               <li key={i}>
                 <h4>{service.title}</h4>
@@ -39,7 +39,7 @@ export default function Services() {
           </ul>
         </div>
 
-        <div className="services-media">
+        <div className="services-media reveal-right">
           <img src={servicesImg} alt="Our Services" className="services-img" />
         </div>
       </div>
