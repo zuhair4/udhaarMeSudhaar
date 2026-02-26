@@ -4,9 +4,9 @@ import Home from './components/Home'
 
 export default function App() {
   const [theme, setTheme] = useState(() => {
-    // Check localStorage, default to 'dark'
+    // Check localStorage, default to 'light'
     const saved = localStorage.getItem('ums-theme')
-    return saved || 'dark'
+    return saved || 'light'
   })
 
   useEffect(() => {
