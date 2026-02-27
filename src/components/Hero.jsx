@@ -18,7 +18,7 @@ export default function Hero() {
           Fast, professional support for loan restructuring, settlement negotiation,
           and protecting your assets from aggressive recovery actions.
         </p>
-        <a className="btn" href="#contact">Get Free Consultation →</a>
+        <a className="btn" href="#contact">Get Consultation →</a>
 
         <div className="hero-stats">
           <div className="hero-stat">
