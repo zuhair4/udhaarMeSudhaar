@@ -5,7 +5,7 @@
 /* ---- Light Mode (Default) ---- */
 :root {
     --bg-primary: #f0faf0;
-    --bg-secondary: #e8f5e9;
+    --bg-secondary: #ffffff;
     --bg-tertiary: #dcedc8;
     --bg-card: rgba(255, 255, 255, 0.9);
     --bg-glass: rgba(255, 255, 255, 0.65);
