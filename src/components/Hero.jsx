@@ -22,19 +22,19 @@ export default function Hero() {
 
         <div className="hero-stats">
           <div className="hero-stat">
-            <div className="hero-stat-number">500+</div>
+            <div className="hero-stat-number">280+</div>
             <div className="hero-stat-label">Cases Resolved</div>
           </div>
           <div className="hero-stat">
-            <div className="hero-stat-number">98%</div>
+            <div className="hero-stat-number">90%</div>
             <div className="hero-stat-label">Success Rate</div>
           </div>
           <div className="hero-stat">
-            <div className="hero-stat-number">15+</div>
+            <div className="hero-stat-number">5+</div>
             <div className="hero-stat-label">Years Experience</div>
           </div>
           <div className="hero-stat">
-            <div className="hero-stat-number">₹50Cr+</div>
+            <div className="hero-stat-number">₹19Cr+</div>
             <div className="hero-stat-label">Debt Settled</div>
           </div>
         </div>

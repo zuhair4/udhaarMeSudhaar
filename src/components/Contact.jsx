@@ -45,8 +45,7 @@ export default function Contact() {
 
                 <div className="contact-item">
                   <h4>Phone</h4>
-                  <p><a href="tel:+917503200234">+91 75032 00234</a></p>
-                  <p><a href="tel:+919716429803">+91 97164 29803</a></p>
+                  <p><a href="tel:+919217671406">+91 9217671406</a></p>
                 </div>
 
                 <div className="contact-item">

@@ -1111,7 +1111,7 @@ main {
 
 #services {
     min-height: auto;
-    padding: 6rem 1.5rem;
+    padding: 0rem 1.5rem;
 }
 
 .services-grid {

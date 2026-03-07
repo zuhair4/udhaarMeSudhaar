@@ -8,6 +8,10 @@ export default function Services() {
       desc: 'We help negotiate revised loan terms with banks and NBFCs, making your repayments more manageable while avoiding default.'
     },
     {
+      title: 'Personal loans and credit card debt specialisation',
+      desc: ' Stop the debt cycle today. We specialize in aggressive negotiation for unsecured loans and credit card debt, slashing your balances by dealing directly with creditors. Our experts halt collector harassment and settle your liabilities for a fraction of what you owe. Fast, professional, and built for your financial recovery.'
+    },
+    {
       title: 'One-Time Settlements at Reasonable Rates',
       desc: 'Struggling to repay the full loan amount? We assist in securing one-time settlements at fair, negotiated amounts to close your debts quickly and legally.'
     },
@@ -15,10 +19,7 @@ export default function Services() {
       title: 'Extension of Loan Repayment Period',
       desc: 'We facilitate extensions in loan tenures, reducing your EMI burden and giving you breathing space to stabilize your finances.'
     },
-    {
-      title: 'Handling DRT and NCLT Cases',
-      desc: 'Our legal team represents and supports clients facing proceedings under the Debt Recovery Tribunal (DRT) and the National Company Law Tribunal (NCLT), ensuring strong and effective defense.'
-    }
+
   ]
 
   return (
